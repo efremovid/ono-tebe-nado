@@ -1,1 +1,1 @@
-[Ссылка на проект](https://github.com/efremovid/ono-tebe-nado)
+https://github.com/efremovid/ono-tebe-nado
