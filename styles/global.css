@@ -32,3 +32,26 @@ a {
 img {
   width: 100%;
 }
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+header {
+  display: flex;
+  box-sizing: border-box;
+  width: 1052px;
+  height: 105px;
+  margin: 92px auto;
+}
+
+footer {
+  display: flex;
+  width: 1000px;
+  height: 98px;
+  margin: 180px auto;
+  justify-content: space-between;
+}
