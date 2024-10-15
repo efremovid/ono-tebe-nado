@@ -131,7 +131,7 @@
     word-spacing: 18.5px;
 }
 
-.bet-button {
+button{
     width: 256px;
     height: 51px;
     background-color: transparent;
@@ -141,7 +141,9 @@
     font-size: 22px;
     text-transform: uppercase;
     color: white;
+    
 }
+
 
 .lots {
     width: 1052px;
@@ -373,3 +375,4 @@
     text-decoration: underline;
     text-underline-offset: 3.7px;
 }
+
