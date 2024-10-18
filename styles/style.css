@@ -59,6 +59,7 @@
     background-size: cover;
     background-position: 50%;
     position: relative;
+    padding-top: 165px;
 }
 
 .overlay {
@@ -69,11 +70,10 @@
 }
 
 .cover_title {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 164px;
     margin-left: 52px;
     width: 1000px;
     font-size: 100px;
@@ -101,14 +101,14 @@
 }
 
 .cover__description {
-    position: absolute;
+    position: relative;
     display: flex;
     width: 972px;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    margin-top: 127px;
     margin-left: 79px;
-    margin-top: 655px;
     z-index: 2;
 }
 
@@ -134,7 +134,6 @@ button {
 
 .lots {
     width: 1052px;
-    min-height: 692px;
     margin-top: 179px;
     margin-left: 24px;
 }
@@ -171,6 +170,8 @@ button {
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 48px;
+    background-position: 49%;
+    background-size: cover;
 }
 
 .card-link {
@@ -180,20 +181,14 @@ button {
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-position: 50%;
-    background-size: cover;
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-position: 49%;
-    background-size: cover;
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-position: 49%;
-    background-size: cover;
 }
 
 .card-title {
@@ -203,7 +198,7 @@ button {
     font-size: 22px;
     line-height: 1.18;
     text-decoration: underline;
-    text-underline-offset: 4px;
+    text-underline-offset: 3px;
     text-transform: uppercase;
     z-index: 2;
 }
